@@ -11,7 +11,7 @@ zuul:
       url: http://httpbin.org/image
     hello:
       path: /hello/**
-      url: http://demo-springboot-odangreaux-project1.7e14.starter-us-west-2.openshiftapps.com
+      url: http://demo-springboot.odangreaux-project1.svc:8080
 
 eureka:
   client:
